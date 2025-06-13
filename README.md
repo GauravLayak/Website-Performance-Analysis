@@ -1,88 +1,44 @@
-# 📊 **Website Performance Analysis Report**
+# 📈 Website Performance Analysis
 
----
+A data-driven exploration of website sessions, traffic sources, and user engagement behavior using Python.
 
-## 1. 🔍 **Project Overview**
+## 🔍 Objective
 
-**Objective**:
-To analyze website traffic and user engagement across marketing channels using Google Analytics data, and identify actionable insights to optimize marketing strategies and content delivery.
+Analyze how users interact with a website across traffic channels, time, and engagement metrics to provide strategic recommendations for content and marketing teams.
 
-**Tools Used**:
+## 📊 Business Questions Answered
 
-* Python: Pandas, Seaborn, Matplotlib
-* Dataset: data export (CSV)
-* Skills: EDA, data visualization, KPI analysis, business insights
+1) What patterns or trends can you observe in website sessions and users over time? 
+2) Which marketing channel brought the highest number of users to the website, and how can we use this insight to improve traffic from other sources?
+3) Which channel has the highest average engagement time, and what does that tell us about user behaviour and content effectiveness? 
+4) How does engagement rate vary across different traffic channels? 
+5) Which channels are driving more engaged sessions compared to non-engaged ones, and what strategies can improve engagement in underperforming channels? 
+6) At what hours of the day does each channel drive the most traffic? 
+7) Is there any correlation between high traffic (sessions) and high engagement rate over time?
 
----
+## 🧰 Tools Used
 
-## 2. 🎯 **Business Questions Addressed**
+* Python: Pandas, NumPy
+* Data Viz: Matplotlib, Seaborn
+* Dataset: data export CSV
 
-1. What trends exist in sessions and users over time?
-2. Which marketing channels bring in the most users?
-3. Which channel has the highest average engagement time?
-4. How does engagement rate differ across channels?
-5. What are the peak hours of activity for each channel?
-6. Are higher traffic levels linked to higher engagement?
-7. How do engaged vs. non-engaged sessions vary by channel?
+## 💡 Key Insights
 
----
+* **Direct traffic** contributed the most sessions, while **Email** had the highest avg. engagement per session.
+* **Referral traffic** showed consistent engagement across hours, despite lower volume.
+* Engagement rate is not strongly correlated with total traffic — emphasizing quality over quantity.
+* Traffic from **Social** peaked in late hours, suggesting content timing adjustment.
 
-## 3. 🧼 **Data Preparation**
+## 📁 Sections
 
-* Cleaned and restructured raw CSV: set headers, dropped empty rows, parsed datetime.
-* Converted key columns to numeric types for accurate aggregation.
-* Created new column for `Hour` to enable time-based analysis.
+* Data Cleaning & Type Conversion
+* Exploratory Data Analysis
+* KPI Derivation: Sessions, Users, Engagement Rate
+* Channel-wise & Hourly Breakdown
+* Visual Insights
 
----
+## 📌 Takeaways
 
-## 4. 📈 **Key Visual Insights**
-
-### 🔹 Sessions & Users Over Time
-
-* **Line plot** shows consistent traffic growth across days.
-* **Spikes in user activity** align with marketing pushes or peak browsing hours.
-
-### 🔹 Total Users by Channel
-
-* **Direct** and **Organic Search** are the top channels by user count.
-* **Social** and **Email** have smaller reach but different engagement dynamics.
-
-### 🔹 Average Engagement Time by Channel
-
-* **Email** and **Referral** drive deeper engagement.
-* Suggests high-quality or targeted content in those channels.
-
-### 🔹 Engagement Rate Distribution
-
-* Boxplot analysis shows **Referral** and **Email** have tight and high engagement.
-* **Paid Search** and **Social** have wider variability.
-
-### 🔹 Engaged vs. Non-Engaged Sessions
-
-* Visualized split by channel.
-* **Email** and **Referral** have higher ratios of engaged sessions.
-* Opportunity to **improve engagement in Paid and Organic Search**.
-
-### 🔹 Hourly Traffic by Channel
-
-* Traffic peaks vary: **Social** peaks in evening, **Direct** in morning/afternoon.
-* Suggests optimal **content scheduling strategies** by channel.
-
----
-
-## 5. 💡 **Key Findings & Insights**
-
-* **Direct and Organic Search** drive the most users, but **Email** and **Referral** drive the **most engaged sessions**.
-* Engagement **doesn’t directly correlate with traffic volume** — highlighting the need to focus on content quality.
-* Peak traffic hours vary by channel — scheduling posts accordingly can improve visibility and conversion.
-* **Social** has low engagement despite traffic — suggest testing new post formats or landing pages.
-* Channels with low engagement can benefit from **A/B testing** and personalized content.
-
----
-
-## 6. 📌 **Recommendations**
-
-* **Retarget** users from low-engagement channels with personalized campaigns.
-* **Schedule content** for each channel during its respective peak hours.
-* **A/B test landing pages** for Organic and Paid Search to improve engagement rates.
-* **Leverage Email and Referral traffic** for long-form, high-retention content strategies.
+* Prioritize content in **Email & Referral** channels for long-form/high-retention material.
+* Schedule posts from **Social** in late hours for max visibility.
+* Explore boosting engagement in **Organic Search** via landing page optimization.
