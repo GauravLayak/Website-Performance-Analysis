@@ -37,6 +37,10 @@ Analyze how users interact with a website across traffic channels, time, and eng
 * Channel-wise & Hourly Breakdown
 * Visual Insights
 
+## Overview :
+![image alt](https://github.com/GauravLayak/Website-Performance-Analysis/blob/919d574acba37edcdd16b681f911d4e8b30adfd0/overview.png)
+
+
 ## 📌 Takeaways
 
 * Prioritize content in **Email & Referral** channels for long-form/high-retention material.
