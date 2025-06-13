@@ -82,7 +82,7 @@ To analyze website traffic and user engagement across marketing channels using G
 
 ## 6. 📌 **Recommendations**
 
-* 🔁 **Retarget** users from low-engagement channels with personalized campaigns.
-* ⏰ **Schedule content** for each channel during its respective peak hours.
-* 🧪 **A/B test landing pages** for Organic and Paid Search to improve engagement rates.
-* 💬 **Leverage Email and Referral traffic** for long-form, high-retention content strategies.
+* **Retarget** users from low-engagement channels with personalized campaigns.
+* **Schedule content** for each channel during its respective peak hours.
+* **A/B test landing pages** for Organic and Paid Search to improve engagement rates.
+* **Leverage Email and Referral traffic** for long-form, high-retention content strategies.
